@@ -1,5 +1,5 @@
 # lfa-automato
-Ao rodar o programa, tudo é bem interativo informando o que você precisa digitar a cada passo
+Ao rodar o programa, tudo é bem interativo informando o que você precisa digitar a cada passo\n
 
 Informações importantes:
 1- O programa só funciona para o cadastro de um automato, ou seja, você vai estar cadastrando os estados de um mesmo automato enquanto o programa estiver rodando
