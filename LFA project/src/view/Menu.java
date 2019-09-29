@@ -17,8 +17,9 @@ public class Menu {
         + "\n1 - Cadastrar Estado"
         + "\n2 - Listar Estados"
         + "\n3 - Testar Palavra"
-        + "\n4 - Verificar Equivalencia"
-        + "\n5 - Sair"));
+        + "\n4 - Cadastrar Alfabeto"
+        + "\n5 - Verificar Equivalencia"
+        + "\n6 - Sair"));
         
         switch (opc){
             case 1:
@@ -37,9 +38,12 @@ public class Menu {
                 }
                 break;
             case 4:
-                
+                controle.cadastrarAlfabeto();
                 break;
             case 5:
+                controle.verificarEquivalencia();
+                break;
+            case 6:
                 JOptionPane.showMessageDialog(null, "Saindo do Sistema");
                 break;
             default:
